@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #E2E5E9;
+}
+
+section {
+    background: rgb(22, 46, 88); /* cor oficial do site */
+    padding: 10px;
+    width: 100%;
+    margin-top: auto;
+
+}
+
+h1 { 
+    color: rgb(255, 255, 255);
+
+}
+
+.topico {
+    color: hsla(0, 0%, 100%, 0.616);
+
+}
+
+.topicon{
+    text-align: center;
+
+}
+ul{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 40%;
+    margin: 0% auto;
+    list-style-type: none;
+}
+li{
+    text-transform: uppercase;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+
+}
+
+.tabela1{
+    width: 60%;
+    margin: 0 auto; /* sempre p deixar um quadrado no meio */
+    background-color: #fff;
+    margin-top: 30px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 4px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.tabela1 h2{
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.lineTitle{
+    width: 100%;
+    margin-top: 15px;
+    color: grey;
+    display: flex;
+}
+
+.esquerda{
+    display: flex;
+    width: 50%;
+}
+
+.esquerda p{
+    margin-left: 15px;
+}
+
+
+.direita{
+    display: flex;
+    width: 50%;
+}
+
+.direita p{
+    margin-right: 15px;
+    width: 25px;
+}
+
+.direita p:last-child {
+    width: 100px;
+}
+
+
+.separador{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 15px;
+}
+
+.lineTeams{
+    width: 100%;
+    display: flex;
+    padding: 15px; /* criar um esapcamento interno */
+    border-bottom: 1px solid gray;
+}
+
+.lineTeams span{
+    margin-left: 15px;
+}
+
+.lineTeams img{
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+
+.lineTeams .esquerda, .lineTeams .direita{
+    align-items: center;
+}
+
+.lineTeams .ball{ 
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}
+
+.win{
+    background-color: green;
+}
+
+.lose{
+    background-color: crimson;
+}
+
+.draw{
+    background-color: grey;
+}
+
+.tabela3{
+    width: 60%;
+    margin: 0 auto; 
+    background-color: #fff;
+    margin-top: 30px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* SEPARANDO */
+
+.tabela3 p{
+    padding-top: 15px;
+
+}
+
+.tabela3 h4{
+    padding-top: 15px;
+    margin-left: 20px;
+
+}
+.tabelagols {
+    display:flex; /* pra ficar na mesma linha */
+    justify-content: space-between; /* separa os topicos, usado normalmente com 2   elemento*/
+    padding: 0 20px; /* da espaçamento interno */
+}
+.inf  {
+    display:flex;
+    justify-content: space-between;
+}
+.timeon img {
+    margin: 0px 10px 0px 20px;
+    width: 24px;
+    height: 24px;
+
+}
+.timeon{
+    display: flex;
+    align-items: center;
+}
+
+p8{
+    margin: auto 30px auto 0;
+}
+
+/* SEPARANDO */
+
+.caixa{
+    border:1px solid #c9c9c9;
+    background-color: #c9c9c9;
+    
+
+
+}
+p10{
+    font-size: 0px;
+
+}

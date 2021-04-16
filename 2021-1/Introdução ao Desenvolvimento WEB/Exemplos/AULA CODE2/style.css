@@ -1,0 +1,22 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.folha{
+    height: 800px;
+    width: 60%;
+    border:1px solid #000 ;
+    margin: 0 auto;
+    background-color:white;
+}
+h1{
+    text-align: center;
+}
+p{
+    font: 15px;
+
+}
+.imagem{
+    width:200px;
+    height: 200px;
+}
