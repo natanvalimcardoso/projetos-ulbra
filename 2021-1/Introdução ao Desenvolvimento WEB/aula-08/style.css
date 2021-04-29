@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(153, 150, 150);
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+
+nav{
+    float: left;
+    width: 30%;
+    background-color: #bbb;
+    min-height: 300px;
+    padding: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+article{
+    float: left;
+    width: 70%;
+    padding: 30px;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    background-color: rgb(153, 150, 150);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
